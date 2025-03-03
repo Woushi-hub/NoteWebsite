@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Organization and Interaction</title>
+    </head>
+    <body>
+        <h1>Organization and Interaction notes</h1>
+        <h3>Tables</h3>
+        <table border = "2" style="background-color:black">
+            <tr align="center"style="background-color:skyblue">
+                <th width="100">Fruits</th>
+                <th width="100">Vegtables</th>
+            </tr>
+            <tr align="center"style="background-color:beige">
+                <td>Apple</td>
+                <td>Carrot</td>
+            </tr>
+            <tr align="center"style="background-color:beige">
+                <td>Orange</td>
+                <td>Potato</td>
+            </tr>
+        </table>
+
+        <p>
+            Code:
+        </p>
+        <img src="Organization_interaction_01.png">
+        <br>
+
+        <h3>Buttons</h3>
+
+        <button onclick="doSomething()" >Click me</button>
+
+        <p id="greeting">Hello</p>
+
+        <script>
+            function doSomething(){
+              document.getElementById("greeting").innerHTML = "Goodbye";
+            }
+        </script>
+        <p>
+            Note that this button contains some script
+            <br>
+            Code:
+        </p>
+        <img src="Organization_interaction_02.png">
+
+        <br>
+        <br>
+        <a href="index.html"  
+        title="Return to index"> 
+           Return to index
+    </body>
+</html>
